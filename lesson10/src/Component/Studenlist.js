@@ -1,7 +1,8 @@
 import React from 'react';
 import axios from 'axios';
+
 export default function Studenlist({ renderTqtStudentlist }) {
-    console.log("Data:", renderTqtStudentlist)
+    // console.log("Data:", renderTqtStudentlist)
     let tqtElement = renderTqtStudentlist.map((tqtStudent, index) => {
         return (
             <tr key={index}>
